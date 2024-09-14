@@ -1,12 +1,16 @@
 {
     "species": {
-        "species1": [],
-        "species2": []
+        "fishcat": ["dom_inh"],
+        "whalecat": ["exc_breed"],
+        "sharkcat": [],
+        "abysscat": []
     },
-    "ran_weights": [1, 1],
+    "ran_weights": [5, 0, 0, 0],
     "in_weights": {
-        "species1": [1, 1],
-        "species2": [1, 1]
+        "fishcat": [4, 0, 0, 0],
+        "whalecat": [1, 1, 1, 1],
+        "sharkcat": [0, 0, 3, 0],
+        "abysscat": [0, 0, 0, 2]
     },
     "comment": [
         "look at the official documentation for a list of all species tags.",
